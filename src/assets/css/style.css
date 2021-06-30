@@ -1,0 +1,398 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url("./../fonts/CustomFont.ttf");
+}
+
+* {
+    font-family: "CustomFont";
+}
+
+/* ::-webkit-scrollbar { 
+    display: none; 
+} */
+
+:root {
+    --primary: rgba(0, 163, 244, 1);
+    --secondary: #333333;
+    --error: #ce0606;
+    --success: #009070;
+    --white: #ffffff;
+}
+
+body {
+    color: rgba(90, 90, 90, 1);
+    font-size: 18px;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 83%;
+    margin: 0px auto
+}
+
+.wrapper-content {
+    margin: 0px 70px;
+}
+
+.text-btn-darker {
+    filter: brightnes(100%);
+    color: #fff;
+    position: absolute;
+    left: 33px;
+    top: 13px;
+    cursor: pointer;
+}
+
+.btn-primary-2 {
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    box-shadow: 0px 20px 30px -15px rgba(0, 0, 0, 0.7);
+}
+
+header {
+    width: 100%;
+    top: 0px;
+    padding: 30px 0px;
+    position: fixed;
+    z-index: 99;
+    display: inline-block;
+    color: #000;
+}
+
+.header.colored {
+    background-color: #fff;
+}
+
+.landing-top {
+    height: 100vh;
+}
+
+h1 {
+    color: #000;
+    padding: 0px;
+    margin: 0px;
+    font-size: 72px;
+}
+
+.menu-header {
+    float: right;
+    margin-right: -23px;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 5px 23px;
+    position: relative;
+    cursor: pointer;
+    transition: color linear 0.2s;
+}
+
+.menu-item:hover {
+    color: var(--primary);
+}
+
+.menu-item.active {
+    color: var(--primary);
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    background-color: var(--primary);
+}
+
+.row {
+    width: 100%;
+}
+
+.landing-left {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 80px;
+}
+
+.landing-left p {
+    padding-right: 40px;
+    font-weight: lighter;
+}
+
+.landing-right {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.img-circle {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.circle-3 {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: -290px;
+}
+
+.circle-3 img {
+    left: 50%;
+    transform: translateX(-50%);
+    top: -39%;
+    position: absolute;
+}
+
+.image-damogo {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.5));
+}
+
+.attribute-small {
+    top: -20px;
+    width: 92%;
+    opacity: 0.8;
+}
+
+.rectangle-landing {
+    top: 110px;
+    position: absolute;
+    width: 50vw;
+    height: 400px;
+    background-color: #DFF4FF;
+    border-radius: 100px 0px 0px 0px;
+}
+
+.btn {
+    padding: 13px 33px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: #fff;
+    box-shadow: 0px 20px 30px -15px rgba(0, 163, 244, 0.7);
+}
+
+.btn-outline-primary {
+    background-color: #fff;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.content-left {
+    width: 40%;
+    display: inline-block;
+}
+
+.content-right {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 100px 0px;
+}
+
+.content-right p {
+    font-size: 22px;
+}
+
+.tag-blog {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #FFBB00;
+}
+
+.dimput-4 {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.dimput-4 img {
+    vertical-align: middle;
+    height: 100px;
+    filter: grayscale();
+    transition: filter linear 0.1s;
+}
+
+.dimput-4 img:hover {
+    filter: none;
+}
+
+.img-dimput-4 {
+    padding: 30px;
+}
+
+.title-blog {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.company-name {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.title-company-name {
+    color: var(--primary);
+    letter-spacing: 3px;
+}
+
+.title-content {
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 36px;
+}
+
+.sub-title {
+    text-align: center;
+}
+
+.title-company-name-2 {
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.title-content-2 {
+    font-weight: 100;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 36px;
+}
+
+.sub-title-2 {
+    text-align: left;
+}
+
+.content-2 {
+    color: #fff;
+    font-size: 21.5px;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.demo-aplikasi {
+    position: relative;
+    height: 100vh;
+    padding-bottom: 100px;
+}
+
+
+
+.img-demo-aplikasi {
+    position: relative;
+}
+
+.img-damogo-aplikasi {
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    transform: translateX(-50%);
+    width: 60%;
+    filter: drop-shadow(0 50px 40px rgba(0, 0, 0, 0.25));
+}
+
+.img-ceker img {
+    width: 85%;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    padding: 2px 0px;
+    color: black;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Blog {
+    height: 80vh;
+    background: url('./../images/bg-2.png');
+    background-size: cover;
+}
+
+.Footer {
+    background: linear-gradient(180deg, rgba(223, 244, 255, 0) 0%, #DFF4FF 100%);
+    padding-bottom: 70px;
+}
+
+.title-footer {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.content-footer {
+    width: 40%;
+    display: inline-block;
+}
+
+.download {
+    margin-left: 70px;
+}
+
+.download img {
+    height: 50px;
+    padding: 10px;
+}
+
+.hiasan-kiri {
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    left: -272px;
+    top: -272px;
+    background: #DFF4FF;
+    filter: blur(300px);
+}
+
+.hiasan-kanan {
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    right: -272px;
+    background: #DFF4FF;
+    filter: blur(300px);
+}
+
+.Fab {
+    background-color: #3AE058;
+    border-radius: 50%;
+    z-index: 99;
+    border: none;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+}

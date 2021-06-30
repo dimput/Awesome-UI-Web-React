@@ -25,7 +25,7 @@ export class BlogSection extends Component {
                     </div>
                     <div className="content-left">
                         <div className="img-ceker">
-                            <img src={ceker} alt="" />
+                            <img src={ceker} alt="damogo" />
                         </div>
                     </div>
                 </div>

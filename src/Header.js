@@ -20,7 +20,7 @@ export default function Header(){
                 small ? "" : "colored"
               }`}>
                 <div className="wrapper">
-                    <img src={logo} alt="logo" />
+                    <img src={logo} alt="logo" style={{cursor:"pointer"}}/>
                     <div className="menu-header">
                         <div className="menu-item active">
                             Beranda

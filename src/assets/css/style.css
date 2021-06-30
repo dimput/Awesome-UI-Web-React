@@ -60,6 +60,7 @@ header {
     z-index: 99;
     display: inline-block;
     color: #000;
+    transition: background-color linear 0.2s;
 }
 
 .header.colored {
@@ -395,4 +396,5 @@ ul {
     position: fixed;
     bottom: 40px;
     right: 30px;
+    cursor: pointer;
 }

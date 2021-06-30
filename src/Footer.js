@@ -17,14 +17,14 @@ export class Footer extends Component {
                                 Ikuti Kami
                             </div>
                             <ul style={{ marginTop: "20px", fontSize: "16px" }}>
-                                <li><a href="#">Term of Use</a></li>
-                                <li><a href="#">Privacy</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">CA Supply Chains Act</a></li>
-                                <li><a href="#">Affiliates</a></li>
-                                <li><a href="#">Recall Info</a></li>
-                                <li><a href="#">Inclusion and Diversity</a></li>
+                                <li><a href="https://github.com/dimput">Term of Use</a></li>
+                                <li><a href="https://github.com/dimput">Privacy</a></li>
+                                <li><a href="https://github.com/dimput">Careers</a></li>
+                                <li><a href="https://github.com/dimput">About</a></li>
+                                <li><a href="https://github.com/dimput">CA Supply Chains Act</a></li>
+                                <li><a href="https://github.com/dimput">Affiliates</a></li>
+                                <li><a href="https://github.com/dimput">Recall Info</a></li>
+                                <li><a href="https://github.com/dimput">Inclusion and Diversity</a></li>
                             </ul>
                         </div>
                         <div className="content-footer" style={{ verticalAlign: "top" }}>
@@ -39,8 +39,8 @@ export class Footer extends Component {
                                     Daerah Istimewa Yogyakarta 55223</li>
                                 <br />
                                 <li><strong>Jam buka</strong></li>
-                                <li>Mon - Fri 6:00 am - 8:00 pm
-                                    Sat & Sun 9:30 am - 6:00 pm</li>
+                                <li>Mon - Fri 6:00 am - 8:00 pm</li>
+                                <li>Sat & Sun 9:30 am - 6:00 pm</li>
                             </ul>
                         </div>
                     </div>

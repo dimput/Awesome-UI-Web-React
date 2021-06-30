@@ -6,8 +6,11 @@ export default function Header(){
 
         useEffect(() => {
           if (typeof window !== "undefined") {
+            if(window.scrollY === 0){
+                setSmall(true);
+            }
             window.addEventListener("scroll", () =>
-              setSmall(window.scrollY <= 300)
+              setSmall(window.scrollY <= 200)
             );
           }
         }, []);

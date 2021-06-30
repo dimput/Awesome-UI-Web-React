@@ -4,6 +4,7 @@ import imageLanding from './assets/images/damogo1.png';
 import attributes from './assets/images/attributes-small.png';
 import attributes2 from './assets/images/attributes-small-2.png';
 import DemoAplikasi from './assets/images/damogo2.png';
+import play from './assets/images/play.png';
 import imageAppsUntukRestoran from './assets/images/damogo3.png';
 import imageAppsUntukSupplier from './assets/images/damogo4.png';
 import './assets/css/style.css';
@@ -61,7 +62,9 @@ function App() {
                   <br />
                   <br />
                   Atur semua pesanan dari supplier maupun bahan dari kamu ke franchise secara online.</p>
-                <button className="btn btn-primary" style={{ marginTop: "30px" }}>Lihat demo</button>
+                <button className="btn btn-primary" style={{ marginTop: "30px" }}>Lihat demo
+                  <img src={play} alt="play" style={{verticalAlign:"middle",marginLeft:"10px"}} />
+                </button>
               </div>
             </div>
           </div>
